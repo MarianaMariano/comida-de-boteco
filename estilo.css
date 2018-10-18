@@ -1,0 +1,63 @@
+body {
+    font-family: 'Mali', cursive; 
+    margin: 0 auto; 
+    padding: 0%; 
+    background-color: rgb(12, 68, 12);
+}
+
+ul, li ol{
+    list-style:none;
+    margin: 0%; 
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    color: #B0e0e6;
+    font-weight: bold;
+}
+
+.menu{
+background:rgb(12, 68, 12);
+}
+
+.menu li{
+    display: inline;
+    padding-left: 12px;
+}
+
+.menu img{
+    width: 80px;
+}
+
+.estilo-imagem{
+    border: solid rgb(12, 68, 12) 2px;
+    margin-top: 100px;
+}
+
+.banner > h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner > p{
+    text-align: center;
+}
+
+/* margin = margem
+padding pega o todo */
+.banner{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(assets/imagens/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color:rgb(12, 68, 12);
+}
